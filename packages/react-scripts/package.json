@@ -52,7 +52,7 @@
     "html-webpack-plugin": "2.22.0",
     "http-proxy-middleware": "0.17.1",
     "jest": "15.1.1",
-    "json-loader": "0.5.4",
+    "json-loader": "^0.5.4",
     "object-assign": "4.1.0",
     "path-exists": "2.1.0",
     "postcss-loader": "0.13.0",
@@ -70,7 +70,9 @@
   "devDependencies": {
     "bundle-deps": "1.0.0",
     "react": "^15.3.0",
-    "react-dom": "^15.3.0"
+    "react-dom": "^15.3.0",
+    "webpack-externals-plugin": "^1.0.0",
+    "webpack-node-externals": "^1.4.3"
   },
   "optionalDependencies": {
     "fsevents": "1.0.14"
